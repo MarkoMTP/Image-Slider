@@ -24,7 +24,7 @@ position: relative;
 width: 100%;
 height: 100%;
 transform: translateX(0%);
-transition: transform 500ms ease-in-out;
+transition: transform 500ms ease;
 background-size: cover;
 }
 
@@ -48,7 +48,7 @@ height: 100%;
     width: 95%;
     height: 95%;
     transform: translateX(250%);
-    transition: transform 400ms ease-in-out;
+    transition: transform 400ms ease;
 
 
 }
@@ -62,7 +62,7 @@ height: 100%;
     height: 95%;
     background-size: cover;
     transform: translateX(-2500%);
-    transition: transform 400ms ease-in-out;
+    transition: transform 400ms ease;
 
 
 } 
@@ -73,7 +73,7 @@ height: 100%;
     width: 100%;
     height: 100%;
     transform: translateX(0%);
-    transition: transform 400ms ease-in-out;
+    transition: transform 400ms ease;
     background-color: black;
 
 }
@@ -95,3 +95,17 @@ top: 20rem;
 
 
 }
+
+button {
+cursor: pointer;
+background-color: rgb(207, 230, 238);
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(156, 216, 236);
+    
+    
+    }
