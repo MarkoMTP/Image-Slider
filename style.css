@@ -1,7 +1,7 @@
 body {
     margin: 0;
     border: 0;
-
+position: relative;
 }
 
 
@@ -9,11 +9,11 @@ body {
 .container {
 display: flex;
 align-items: center;
-width: 60vw;
+width: 40vw;
 height: 80vh;
 border: 6px solid black;
 overflow: hidden;
-margin-left:350px ;
+margin-left:550px ;
 margin-top: 100px;
 position: relative;
 }
@@ -21,13 +21,21 @@ position: relative;
 
 .frameVisible {
     position: absolute;
-width: 99%;
-height: 95%;
+width: 100%;
+height: 100%;
 transform: translateX(0%);
-transition: transform 300ms ease-in-out;
-border: red dotted 3px;
+transition: transform 500ms ease-in-out;
 background-size: cover;
 }
+
+img {
+
+width: 100%;
+height: 100%;
+
+
+}
+
 
 
 
@@ -40,7 +48,7 @@ background-size: cover;
     width: 95%;
     height: 95%;
     transform: translateX(250%);
-    transition: transform 300ms ease-in-out;
+    transition: transform 400ms ease-in-out;
 
 
 }
@@ -54,7 +62,36 @@ background-size: cover;
     height: 95%;
     background-size: cover;
     transform: translateX(-2500%);
-    transition: transform 300ms ease-in-out;
+    transition: transform 400ms ease-in-out;
 
 
 } 
+
+.frameBlack {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0%);
+    transition: transform 400ms ease-in-out;
+    background-color: black;
+
+}
+
+.left {
+    position: absolute;
+left: 1rem;
+top: 20rem;
+
+
+
+}
+
+.right {
+    position: absolute;
+right: 1rem;
+top: 20rem;
+
+
+
+}
